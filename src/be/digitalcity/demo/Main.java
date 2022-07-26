@@ -22,6 +22,9 @@ public class Main {
                 (chien) -> chien.getName().contains("Tit") && chien.getCouleur().equals(Couleur.BEIGE),
                 System.out::println);
 
+/*        Via les stream<Integer>, calculer la somme des carrés des nombres impairs de la liste suivante
+            {1,2,3,4,5,6,7,8,9}
+* */
     }
 
     public static void rechercheParNom(List<Chien> data, String name) {
