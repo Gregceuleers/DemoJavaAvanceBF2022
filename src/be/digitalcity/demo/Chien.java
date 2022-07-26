@@ -26,7 +26,16 @@ public class Chien {
     }
 
     @Override
+    public String toString() {
+        return "Chien{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(name);
+
+
     }
 }
